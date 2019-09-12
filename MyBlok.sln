@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlok.DAL", "MyBlok.DAL\MyBlok.DAL.csproj", "{0443E547-2DCD-4303-B73A-6BE24A20B74B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlok.DAL", "MyBlok.DAL\MyBlok.DAL.csproj", "{0443E547-2DCD-4303-B73A-6BE24A20B74B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlok.BLL", "MyBlok.BLL\MyBlok.BLL.csproj", "{6E0E391D-9A20-40F0-95FD-228E4ACFF231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlok.BLL", "MyBlok.BLL\MyBlok.BLL.csproj", "{6E0E391D-9A20-40F0-95FD-228E4ACFF231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlok.Domain", "MyBlok.Domain\MyBlok.Domain.csproj", "{579AD1F8-7A6E-4919-9D65-CC2C55335792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlok.Domain", "MyBlok.Domain\MyBlok.Domain.csproj", "{579AD1F8-7A6E-4919-9D65-CC2C55335792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlog.UI", "MyBlog.UI\MyBlog.UI.csproj", "{7C09EA84-4C76-4B2A-BB17-C16E4539E0DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlog.UI", "MyBlog.UI\MyBlog.UI.csproj", "{7C09EA84-4C76-4B2A-BB17-C16E4539E0DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlok.Common", "MyBlok.Common\MyBlok.Common.csproj", "{23674366-E6E7-4440-A181-92069BB4EA8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7C09EA84-4C76-4B2A-BB17-C16E4539E0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C09EA84-4C76-4B2A-BB17-C16E4539E0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C09EA84-4C76-4B2A-BB17-C16E4539E0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23674366-E6E7-4440-A181-92069BB4EA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23674366-E6E7-4440-A181-92069BB4EA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23674366-E6E7-4440-A181-92069BB4EA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23674366-E6E7-4440-A181-92069BB4EA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyBlok.Common\MyBlok.Common.csproj" />
     <ProjectReference Include="..\MyBlok.Domain\MyBlok.Domain.csproj" />
   </ItemGroup>
 
