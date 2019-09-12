@@ -37,17 +37,17 @@ namespace MyBlok.DAL.Repositories
 
         public IQueryable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null)
         {
-            throw new NotImplementedException();
+            return predicate == null ? _dbSet : _dbSet.Where(predicate);
         }
 
         public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            return _dbSet.Find(id);
         }
 
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Update(entity);
         }
     }
 }
